@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title>Student Login Form
+</title>
+   <h1>Login form</h3>
+<style>
+.container{
+padding:25px;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+body{
+background-color:Bisque;
+}
+h1{
+color:Green;
+}
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;
+}
+form{
+border:3px;
+}  
+button
+{
+background-color:green;
+color:red;
+margin 10px,0px;
+} 
+</style>
+</head>
+   <body>
+      <form action="list.htm" method="get">
+          <div class="container">
+          <img src="image_avatar2.png" alt="Avatar" align="center" width=100 height=110;><br><br>
+           <label for="uname"><b>User Name</b>
+</label>
+       <input type="text" name="uname" placeholder="Enter user-name" required>
+</input><br><br><br>
+      <label for="pwd"><b>Password</b>
+</label>
+<input type="password" name="pwd" placeholder="Enter password" required>
+</input>
+<br><br><br>
+<button type="submit">Login
+</button>
+<label>
+   <input type="checkbox" checked="checked" reminder>Remeber me</input>
+</label><br><br>
+ <button type="button" class="cancelbtn">Cancel</button>
+  <span class="pwd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot <a href="#">password?</a></span>
+</div>
+</body>
+</html>
